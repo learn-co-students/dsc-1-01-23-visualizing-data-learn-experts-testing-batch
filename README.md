@@ -160,7 +160,7 @@ In matplotlib, we can use `plt.hist()` function to draw a histogram while passin
 # Set seed for reproducability
 np.random.seed(100)
 
-# Generate 100 values from 0 mean normal distribution
+# Generate 200 values from 0 mean normal distribution
 x = np.random.randn(200)
 
 #Plot the distogram with hist() function
@@ -201,7 +201,7 @@ The granularity of bins can be changed according to the analytical needs and amo
 # Set seed for reproducability
 np.random.seed(100)
 
-# Generate 100 values from 0 mean normal distribution
+# Generate 10000 values from 0 mean normal distribution
 x = np.random.randn(10000)
 
 #Plot the distogram with hist() function
